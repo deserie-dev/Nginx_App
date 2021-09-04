@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+    rel="stylesheet">
+  <title>Deserie Nginx Task</title>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.3125rem;
+      line-height: 1.6;
+      background-color: #2a2c2f;
+      justify-content: center;
+      margin: 0px auto 0px auto;
+      min-width: 320px;
+    }
+
+    .intro {
+      text-align: left;
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      width: calc(100% - 296px);
+      max-width: 984px;
+    }
+
+    .intro__title {
+      max-width: 620px;
+      width: calc(100% - 264px);
+      margin: 0px auto 64px auto;
+      padding: 0px;
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    .intro__subtitle-paragraph {
+      width: 690px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      color: #ffffff;
+      margin: 40px 0px 0px 0px;
+      padding: 0px;
+    }
+
+    .intro__text {
+      width: 690px;
+      margin: 32px 0px 0px 0px;
+      padding: 0px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: #ffffff;
+    }
+
+    .lead {
+      max-width: 984px;
+      width: calc(100% - 296px);
+      text-align: center;
+      margin: 58px auto 0px auto;
+      padding: 0px;
+    }
+
+    .lead__image {
+      width: 100%;
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+    .lead__subtitle {
+      max-width: 620px;
+      width: calc(100% - 264px);
+      margin: 0px auto 64px auto;
+      padding: 0px;
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    .lead__title {
+      max-width: 720px;
+      margin-top: 0px;
+      margin-bottom: 32px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0px;
+      text-align: center;
+      color: #ffffff;
+      font-style: normal;
+      font-size: 96px;
+      line-height: 100px;
+      font-weight: 900;
+    }
+
+    .footer__author {
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ffffff;
+      margin-top: 75px;
+      padding: 0px;
+    }
+  </style>
+
+</head>
+
+<body class="root">
+
+  <main>
+    <section class="lead">
+      <img class="lead__image" src="nginx-cover" alt="nginx logo">
+    </section>
+
+    <section class="intro">
+      <div>
+        <h2 class="intro__title">She Code Africa Cloud School</h2>
+        <p class="intro__subtitle-paragraph">Week 4: Web Servers</p>
+        <p class="intro__text">
+          Task 1: Serve a simple application running on any random port (eg: 3000) via Nginx.
+        </p>
+        <p class="intro__text">
+          Task 2: Configure Nginx to forward request coming to that port to port 80 (HTTP).
+        </p>
+        <p class="intro__text">
+          Task 3: Install SSL/TLS certificate in Nginx to load application over HTTPS.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer__author">&copy; 2021. Deserie Murembeni</p>
+  </footer>
+
+</body>
+
+</html>
