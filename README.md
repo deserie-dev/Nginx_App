@@ -12,6 +12,8 @@
 
 ### Sample Node App
 
+[Live site]( https://deserie-dev.github.io/Nginx_App/)
+
 ![Sample App](./app/images/web-page.png)
 
 ---
