@@ -4,11 +4,14 @@
   "description": "**Task 1:** Serve a simple application running on any random port (eg: 3000) via Nginx",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js"
   },
   "author": "Deserie Murembeni",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
